@@ -12,7 +12,7 @@ class SkeletonAnimation extends StatefulWidget {
   final Color shimmerColor;
   final Color gradientColor;
   final Curve curve;
-  final BorderRadiusGeometry borderRadius;
+  final BorderRadius? borderRadius;
   final int shimmerDuration;
 
   SkeletonAnimation({
